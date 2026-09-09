@@ -1,16 +1,14 @@
-This is the final polished version of the previous 3D Oblique Launch Kinematics script. *It's important to note that I'm using the word script to refer to my "Console-Only" programs. Therefore, I define it as the "final script version" because this was the last model I built that runs strictly on the terminal's console.* This version contains few, yet, significant updates.
+This version represented an immense step in my programming evolution; it captures the moment I transitioned from a console-based script to a web-based app. Learning the structure of a `Streamlit` website and understanding how to construct it not only expanded my skill set, but also allowed me to implement several features.
 
-### Major Updates
-* **More organized and cleaner code structure;**
-* **Added options to select custom input units with automatic conversions;**
-* **Improved protection against calculation errors;**
+### Major Updates (Console -> Web App)
+
+* **Transitioned to an Interactive Web Interface (`Streamlit`)**
+* **Leveraged External Libraries to Optimize the Calculations**
+* **Shifted from Single-Point Calculations toward Full Trajectory Plotting**
 
 ### Core Skills & Insights
 
-* Constant practice allowed me to write more concise and methodical code.
- 
-* Learning the use of `import` command allowed me to store my functions in another file and directly recall them when necessary, which led to less text and more efficiency.
+* Learning how to utilize famous external libraries allowed me to optimize calculations using `NumPy` and transition to web-based programming with `Streamlit` -> Transitioning to web-based programming prompted me to learn the construction of a `Streamlit` page as well as fundamental CSS and HTML -> Understanding `Streamlit` page's structure and learning basic CSS and HTML enabled me to build more engaging, functional and visually appealing user interfaces.
 
-* A deeper understanding of the connection between User and Programmer allowed me to comprehend the importance of a pleasant interface and interactive systems. I recognized that in order to build good code, I needed to perceive the program from the perspective of a User, since that would guide me to implement mechanisms I would appreciate having if I was the one utilizing the program. This mindset has been an immense step in my programming evolution and is the reason I was able to develop multiple interface ideas and refine my coding. In this version I started with a basic "Unit preference", but this little detail inspired significant changes later on.
+* In this version, I began shifting my mindset from evaluating discrete, single points in time toward generating continuous arrays for 3D trajectory graphs. However, I was still searching methods for implement this idea.
 
-> **Important Note on `MyTools.py`:** After creating my first custom functions (`def`) in the previous version, I became familiar with this mechanism and had numerous other ideas. So, in order to secure the functions I had already built and the ones I was looking forward to craft, I created a Python "library script" named MyTools. Since then, I continuously updated it, optimizing old functions, adding new ones, refining its structure, and I still use it to this day. This creation is heavily important to me as it's an extremely helpful, fully authentic, and "universal use" work. Unfortunately, I didn't register the past versions of MyTools.py and had to upload the current one. In the past, because I used to think of it simply as a personal "toolbox"/"memories of my evolution", I didn't document it. However, after all my progress in Python and General Programming, I saw past its simplicity and currently recognize it as one of the most special projects of my programming path. Hence, in all future versions of this project, and, possibly, in other different works, there's a great chance you'll read the words: `import MyTools as mt`; Just know there's history in there ;)
